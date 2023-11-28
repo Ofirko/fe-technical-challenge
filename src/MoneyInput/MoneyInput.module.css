@@ -1,0 +1,23 @@
+.MoneyInput_input {
+    border: solid 1px var(--betterplace-color-gray-500);
+
+    &:hover:enabled {
+        box-shadow: var(--betterplace-shadow-outer-neutral-soft-2);
+    }
+
+    &:focus {
+        outline-style: solid;
+        outline-color: var(--betterplace-color-green-800);
+        outline-offset: var(--betterplace-dimension--3);
+        outline-width: var(--betterplace-dimension--5);
+    }
+
+    &:invalid {
+        border: solid 1px var(--betterplace-color-red-500);
+    }
+}
+
+.MoneyInput_label {
+    position: absolute;
+    bottom: var(--betterplace-dimension-3);
+}
